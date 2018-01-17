@@ -17,7 +17,11 @@
   },
   "homepage": "https://github.com/jijigo/template#readme",
   "dependencies": {
+    "bootstrap": "^4.0.0-beta.3",
+    "bootstrap4": "0.0.1-security",
     "gulp": "^3.9.1",
-    "gulp-sass": "^3.1.0"
+    "gulp-connect": "^5.2.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-watch": "^5.0.0"
   }
 }

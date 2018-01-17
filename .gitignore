@@ -3,5 +3,6 @@
 .sass-cache/
 *.css.map
 
-
+node_modules/
 .idea/
+package-lock.json
