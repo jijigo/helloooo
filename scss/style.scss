@@ -1,3 +1,54 @@
+$xxl: '1920px';
+$xl: '1440px';
+
+
 * {
   border: 1px solid;
+}
+
+.aside {
+  width: 170px;
+  height: 100vh;
+}
+
+.carousel {
+  height: 100vh;
+}
+
+
+.nav {
+  width: 75%;
+  float: right;
+  @media screen and (max-width: $xl) {
+    width: 100%;
+  }
+}
+
+.banner-one, .banner-two {
+  width: 25%;
+  @media screen and (max-width: $xl) {
+    width: 49%;
+    float: right;
+  }
+}
+
+.banner-one {
+  @media screen and (max-width: $xl) {
+    float: right;
+  }
+}
+
+.banner-two {
+  @media screen and (max-width: $xl) {
+    float: left;
+  }
+}
+
+.youtube {
+  width: 49%;
+
+  @media screen and (max-width: $xl) {
+    width: 75%;
+    margin-left: auto;
+  }
 }

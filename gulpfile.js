@@ -2,10 +2,17 @@
 var gulp = require('gulp');
 var sass = require('gulp-sass');
 var connect = require('gulp-connect');
+var gulpLivereload = require('gulp-livereload');  // 載入 gulp-livereload
 
 // 建立預設 gulp task
 gulp.task('default', function () {
     console.log('hello');
+});
+
+gulp.task('watch', function () {
+    gulpLivereload.listen();
+    // gulp.watch('javascript/original/*.js', ['scripts']);
+    gulp.watch('scss/**/*.scss', ['sass']);
 });
 
 // compiler scss

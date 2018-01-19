@@ -1,2 +1,38 @@
 * {
   border: 1px solid; }
+
+.aside {
+  width: 170px;
+  height: 100vh; }
+
+.carousel {
+  height: 100vh; }
+
+.nav {
+  width: 75%;
+  float: right; }
+  @media screen and (max-width: 1440px) {
+    .nav {
+      width: 100%; } }
+
+.banner-one, .banner-two {
+  width: 25%; }
+  @media screen and (max-width: 1440px) {
+    .banner-one, .banner-two {
+      width: 49%;
+      float: right; } }
+
+@media screen and (max-width: 1440px) {
+  .banner-one {
+    float: right; } }
+
+@media screen and (max-width: 1440px) {
+  .banner-two {
+    float: left; } }
+
+.youtube {
+  width: 49%; }
+  @media screen and (max-width: 1440px) {
+    .youtube {
+      width: 75%;
+      margin-left: auto; } }
